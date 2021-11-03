@@ -67,11 +67,15 @@ Versions/requirements used inside the virtual environment:
 
 Before running this dockerbuild , please verify you got docker daemon running.
 
+
+
 ```console
  $ sudo systemctl start docker
 ```
-
-
+OR:
+```console
+$ sudo /etc/init.d/docker start
+```
 ### Running this Docker image
 
 
