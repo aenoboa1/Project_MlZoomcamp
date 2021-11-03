@@ -1,10 +1,32 @@
 In the following midterm project , We will use the [Hotel booking demand data set](https://www.kaggle.com/jessemostipak/hotel-booking-demand) from Kaggle, to predict whenever a customer will cancel his booking request or not .
 
+This data set contains a single file which compares various booking information between two hotels: a resort hotel(H1), and a city hotel(H2) , comprehending bookings due to arrive between July of 2015 and the 31st of August 2017, including bookings that effectively arrived and bookings that were canceled. [Article](https://www.sciencedirect.com/science/article/pii/S2352340918315191)
+
+## Introduction
+
+- In the following midterm project , I decided to use the [Hotel booking demand data set](https://www.kaggle.com/jessemostipak/hotel-booking-demand) from Kaggle, to predict whenever a customer's booking will be cancelled or not. I thought this was a really good data set to practice and learn a lot about ML techniques and challenges , as this dataset contained tons of features and clean data to work with , furthermore , the proposed [Article](https://www.sciencedirect.com/science/article/pii/S2352340918315191) was really helpful to understand how this dataset worked.
 
 ![alt](https://i2.wp.com/clark.com/wp-content/uploads/2018/07/hotelbooking.jpg?fit=875%2C400&ssl=1)
 
+## Project Navigation
+
+<b> Notebook  Description: </b>
+-Reading the data set and Introduction
+-Exploratory Data Analysis with Pandas and -NumPy
+-Data Preparation using Sklearn
+-Selecting and Training a few Machine -Learning Models
+-Cross-Validation and Hyperparameter -Tuning using Sklearn
 
 
+| Description | Link  |
+|-------------------------------|---|
+| Notebook | [Explanatory notebook with EDA and Training](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/notebook.ipynb)  |
+|                Hotel booking demand data set               |  [csv file]([https://link](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/input/hotel_bookings.csv)) |
+|                   DockerFile commands           |  [dockerfile](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/Dockerfile) |
+|              Pipenv file                 |  [Pipfile](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master) |
+|              Train.py                 |  [Training of final XGBoost model script](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/train.py) |
+|              Predict.py                 |  [Predict app](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/predict.py) |
+|              predict_test.py                 |  [To predict customer cancelling probability](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/predict_test.py) |
 
 ## Data description 
 
@@ -86,7 +108,7 @@ $ docker build -t zoomcamp_project .
 ```
 Now, wait for it to install the pipenv dependencies, it should look like this:
 
-![out](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/img/output_docker.png)
+![out_1](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/img/output_docker.png)
 
 
 Now run the docker build mapping the port `9696` to your host computer.
@@ -101,7 +123,7 @@ python predict_test.py
 ```
 You should see:
 
-
+![out_2](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/img/output_docker_2.png)
 
 ## Deployment in the cloud | AWS Elastic Beanstalk 
 
