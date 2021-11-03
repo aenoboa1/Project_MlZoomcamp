@@ -6,7 +6,7 @@ from flask import Flask
 from flask import request
 from flask import jsonify
 
-model_file = 'code/XGB_model_1.bin'
+model_file = 'XGB_model_1.bin'
 
 with open(model_file, 'rb') as f_in:
     dv, model = pickle.load(f_in)
