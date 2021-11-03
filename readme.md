@@ -70,7 +70,7 @@ With the main one being  `ReservationStatus` , this feature being the clear one 
 
 ## Ml Models Used
 
-4 Types of Models where used in this project. Including :
+4 Types of Models were used in this project. Including :
 
 - `Logistic Regression`
 - `Decision Trees` 
