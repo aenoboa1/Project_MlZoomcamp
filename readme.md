@@ -102,4 +102,4 @@ python predict_test.py
 
 Inside the code Folder, you should see the following output:
 
-![dock](/home/elegant00/Downloads/Project_V2/code/img/output.png)
+![out](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/img/output.png)
