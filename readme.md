@@ -7,7 +7,7 @@ In the following midterm project , We will use the [Hotel booking demand data se
 
 
 ## Data description 
-| Variable                    | Type        | Description                                                                                                                                                                                                                                                                                                |   |
+| Variable                    | Type        | Description                                                                                                                                                                                                                                                                                                |   
 |-----------------------------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
 | ADR                         | Numeric     | Average Daily Rate                                                                                                                                                                                                                                                                       |   |
 | Adults                      | Integer     | Number of adults                                                                                                                                                                                                                                                                                           |   |
@@ -43,7 +43,7 @@ In the following midterm project , We will use the [Hotel booking demand data se
 
 Obviously there's a lot of features in this dataset, In this case ,I deleted some features I thought harmed the performance and generality of the model predictions , such as : `Country`, `ReservationStatus`,`ReservationStatusDate`,`AssignedRoomType`, among others. 
 
-With the main one being  `ReservationStatus` , this feature being the clear one that can cause data leakage , and the model may reach 100 % accurate predictions with it .
+With the main one being  `ReservationStatus` , this feature being the clear one that can cause data leakage , and the model may reach 100 % accurate predictions with it , causing over-fitting .
 
 ## Virtual Environment : `Pipenv 2021.5.29` 
 
