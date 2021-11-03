@@ -46,6 +46,13 @@ Obviously there's a lot of features in this dataset, In this case ,I deleted som
 
 With the main one being  `ReservationStatus` , this feature being the clear one that can cause data leakage , and the model may reach 100 % accurate predictions with it , causing over-fitting .
 
+## Ml Models Used
+
+4 Types of Models where used in this project. Including : `Logistic Regression`,`Decision Trees` ,`Random Forests` (Tuned and not Tuned) and `XGBoost` (Tuned and not Tuned)
+
+With the following results:
+
+
 ## Virtual Environment : `Pipenv 2021.5.29` 
 
 <b>Python version: ` Python 3.9.7`🐍  </b>
@@ -59,12 +66,15 @@ Versions/requirements used inside the virtual environment:
 - `Flask  2.0.2`
 
 Before running this dockerbuild , please verify you got docker daemon running.
+
 ```console
  $ sudo systemctl start docker
 ```
 
 
-### Running Docker
+### Running this Docker image
+
+
 
 ```console
 $ docker build -t zoomcamp.
