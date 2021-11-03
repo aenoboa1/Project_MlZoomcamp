@@ -5,11 +5,11 @@ import requests
 
 
 
-host = 'hotel-serving-env.eba-sf8r37gc.us-east-1.elasticbeanstalk.com.'
-url = f'http://{host}/predict'
+#host = 'hotel-serving-env.eba-sf8r37gc.us-east-1.elasticbeanstalk.com.'
+#url = f'http://{host}/predict'
 
 
-#url = 'http://localhost:9696/predict'
+url = 'http://localhost:9696/predict'
 
 customer_id = 'Customer_1'
 customer = {

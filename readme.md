@@ -84,10 +84,22 @@ $ docker build -t zoomcamp.
 
 ## Deployment in the cloud | AWS Elastic Beanstalk 
 
+In this project , I used AWS Elastic Beanstalk to deploy my docker container to the cloud , I followed the steps described in zoomcamp week 5 .
+To run this easily , you should simply uncomment the following lines from `predict_test.py`
+
+```python
+
+host = 'hotel-serving-env.eba-sf8r37gc.us-east-1.elasticbeanstalk.com.'
+url = f'http://{host}/predict'
 
 
-The
+#url = 'http://localhost:9696/predict'
+```
+Now, simply run 
+```console
+python predict_test.py
+```
 
+Inside the code Folder, you should see the following output:
 
-
-
+![dock](/home/elegant00/Downloads/Project_V2/code/img/output.png)
