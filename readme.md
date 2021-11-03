@@ -7,10 +7,9 @@ In the following midterm project , We will use the [Hotel booking demand data se
 
 
 ## Data description 
-
 | Variable                    | Type        | Description                                                                                                                                                                                                                                                                                                |   |
 |-----------------------------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
-| ADR                         | Numeric     | Average Daily Rate as defined by [5]                                                                                                                                                                                                                                                                       |   |
+| ADR                         | Numeric     | Average Daily Rate                                                                                                                                                                                                                                                                       |   |
 | Adults                      | Integer     | Number of adults                                                                                                                                                                                                                                                                                           |   |
 | Agent                       | Categorical | ID of the travel agency that made the bookinga                                                                                                                                                                                                                                                             |   |
 | ArrivalDateDayOfMonth       | Integer     | Day of the month of the arrival date                                                                                                                                                                                                                                                                       |   |
@@ -42,10 +41,9 @@ In the following midterm project , We will use the [Hotel booking demand data se
 | StaysInWeekNights           | Integer     | Number of week nights (Monday to Friday) the guest stayed or booked to stay at the hotel                                                                                                                                                                                                                   |   |
 | TotalOfSpecialRequests      | Integer     | Number of special requests made by the customer (e.g. twin bed or high floor)                                                                                                                                                                                                                              |   |
 
-
 Obviously there's a lot of features in this dataset, In this case ,I deleted some features I thought harmed the performance and generality of the model predictions , such as : `Country`, `ReservationStatus`,`ReservationStatusDate`,`AssignedRoomType`, among others. 
 
-With the main one being  `ReservationStatus` , this feature being the clear one that can cause data leakage , and the model may reach $100\%$ accurate predictions with it .
+With the main one being  `ReservationStatus` , this feature being the clear one that can cause data leakage , and the model may reach 100 % accurate predictions with it .
 
 ## Virtual Environment : `Pipenv 2021.5.29` 
 
