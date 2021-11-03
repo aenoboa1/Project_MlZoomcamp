@@ -21,7 +21,7 @@ import xgboost
 print("XGBoost version:",xgboost.__version__)  # check XGBoost version
 
 #loading the data
-df = pd.read_csv('/home/elegant00/Downloads/Project_V2/input/hotel_bookings.csv')
+df = pd.read_csv('code/input/hotel_bookings.csv')
 
 
 # Data Preparation
@@ -87,13 +87,15 @@ X_val = dv.transform(val_dict)
 # defining final params for xg_boost
 xgb_params = {
         'use_label_encoder':False,
-        'learning_rate': 0.25,  # also called eta
-        'max_depth':15,
-        'subsample':0.5, #
-        'n_estimators':5000, # max_amount of trees
-        'colsample_bytree':0.5, # half of the features will be used randomly
-        'eval_metric':'auc', # area under auc curve as a metric
-        'verbosity':0}
+           'learning_rate': 0.25,  # also called eta
+             'min_child_weight': 7,
+            'gamma': 0.2,
+            'max_depth':15,
+            'subsample':0.5, #
+            'n_estimators':5000, # max_amount of trees
+            'colsample_bytree': 0.7,
+            'eval_metric':'auc', # area under auc curve as a metric
+            'verbosity':2}
 
 
 
