@@ -55,13 +55,12 @@ Versions/requirements used inside the virtual environment:
 
 - ` xgboost 1.5.0`
 - `scikit-learn 1.0`
-
-- 
-
+- `gunicorn  20.1.0`
+- `Flask  2.0.2`
 
 Before running this dockerbuild , please verify you got docker daemon running.
 ```console
- $sudo systemctl start docker
+ $ sudo systemctl start docker
 ```
 
 
@@ -71,6 +70,9 @@ Before running this dockerbuild , please verify you got docker daemon running.
 $ docker build -t zoomcamp.
 ```
 
+
+
+## Deployment in the cloud | AWS Elastic Beanstalk 
 
 
 
