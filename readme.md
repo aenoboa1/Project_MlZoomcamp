@@ -76,9 +76,6 @@ OR:
 ```console
 $ sudo /etc/init.d/docker start
 ```
-### Running this Docker image
-
-
 
 ### Running this Docker image locally 
 
@@ -88,6 +85,22 @@ To build the docker image from this project , move inside the `code` directory ,
 $ docker build -t zoomcamp_project .
 ```
 Now, wait for it to install the pipenv dependencies, it should look like this:
+
+![out](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/img/output_docker.png)
+
+
+Now run the docker build mapping the port `9696` to your host computer.
+
+```console
+docker run -it --rm -p 9696:9696 zoomcamp_project
+```
+Inside another terminal , simply run:
+
+```console
+python predict_test.py
+```
+You should see:
+
 
 
 ## Deployment in the cloud | AWS Elastic Beanstalk 
