@@ -15,6 +15,14 @@ Versions/requirements used inside the virtual environment:
 
 - 
 
+
+### Running Docker
+
+```console
+foo@bar:~$ docker build -t zoomcamp.
+```
+
+
 ## Data description 
 
 
