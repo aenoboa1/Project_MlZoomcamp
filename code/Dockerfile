@@ -10,7 +10,7 @@ COPY ["Pipfile", "Pipfile.lock", "./"]
 
 RUN pipenv install --system --deploy
 
-COPY ["predict.py", "XGB_model_1.bin", "./"]
+COPY ["predict.py","predict_test.py","XGB_model_1.bin", "./"]
 
 EXPOSE 9696
 

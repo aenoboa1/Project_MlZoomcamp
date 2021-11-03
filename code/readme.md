@@ -3,7 +3,15 @@ In the following midterm project , We will use the [Hotel booking demand data se
 
 ![alt](https://i2.wp.com/clark.com/wp-content/uploads/2018/07/hotelbooking.jpg?fit=875%2C400&ssl=1)
 
-## Virtual Environment : `Pipenv 2021.5.29` ##
+
+
+
+## Data description 
+
+
+
+
+## Virtual Environment : `Pipenv 2021.5.29` 
 
 <b>Python version: ` Python 3.9.7`🐍  </b>
 
@@ -16,15 +24,17 @@ Versions/requirements used inside the virtual environment:
 - 
 
 
-### Running Docker
-
+Before running this dockerbuild , please verify you got docker daemon running.
 ```console
-foo@bar:~$ docker build -t zoomcamp.
+ $sudo systemctl start docker
 ```
 
 
-## Data description 
+### Running Docker
 
+```console
+$ docker build -t zoomcamp.
+```
 
 
 
