@@ -136,9 +136,9 @@ print(f'Final auc score ={auc}')
 
 
 #saving the model
-output_file = f'XGB_model_1.bin'
+output_file = f'code/XGB_model_1.bin'
 
 with open(output_file, 'wb') as f_out:
     pickle.dump((dv, model_xgboost), f_out)
 
-print(f'the model is saved to {output_file}')
+print(f'the model is saved to code/{output_file}')
