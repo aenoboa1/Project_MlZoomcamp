@@ -80,10 +80,14 @@ $ sudo /etc/init.d/docker start
 
 
 
-```console
-$ docker build -t zoomcamp.
-```
+### Running this Docker image locally 
 
+To build the docker image from this project , move inside the `code` directory , and run the following command :
+
+```console
+$ docker build -t zoomcamp_project .
+```
+Now, wait for it to install the pipenv dependencies, it should look like this:
 
 
 ## Deployment in the cloud | AWS Elastic Beanstalk 
