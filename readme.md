@@ -21,7 +21,7 @@ This data set contains a single file which compares various booking information 
 | Description | Link  |
 |-------------------------------|---|
 | Notebook | [Explanatory notebook with EDA and Training](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/notebook.ipynb)  |
-|                Hotel booking demand data set               |  [csv file]([https://link](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/input/hotel_bookings.csv)) |
+|                Hotel booking demand data set               |  [csv file](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/input/hotel_bookings.csv) |
 |                   DockerFile commands           |  [dockerfile](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/Dockerfile) |
 |              Pipenv file                 |  [Pipfile](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master) |
 |              Train.py                 |  [Training of final XGBoost model script](https://github.com/aenoboa1/Project_MlZoomcamp/blob/master/code/train.py) |
