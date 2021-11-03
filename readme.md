@@ -70,9 +70,14 @@ With the main one being  `ReservationStatus` , this feature being the clear one 
 
 ## Ml Models Used
 
-4 Types of Models where used in this project. Including : `Logistic Regression`,`Decision Trees` ,`Random Forests` (Tuned and not Tuned) and `XGBoost` (Tuned and not Tuned)
+4 Types of Models where used in this project. Including :
 
-With the following results:
+- `Logistic Regression`
+- `Decision Trees` 
+- `Random Forests` (Tuned and not Tuned)  
+- `XGBoost` (Tuned and not Tuned)
+
+
 
 
 ## Virtual Environment : `Pipenv 2021.5.29` 
