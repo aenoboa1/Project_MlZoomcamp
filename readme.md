@@ -1,10 +1,11 @@
-In the following midterm project , We will use the [Hotel booking demand data set](https://www.kaggle.com/jessemostipak/hotel-booking-demand) from Kaggle, to predict whenever a customer will cancel his booking request or not .
-
-This data set contains a single file which compares various booking information between two hotels: a resort hotel(H1), and a city hotel(H2) , comprehending bookings due to arrive between July of 2015 and the 31st of August 2017, including bookings that effectively arrived and bookings that were canceled. [Article](https://www.sciencedirect.com/science/article/pii/S2352340918315191)
 
 ## Introduction
 
 - In the following midterm project , I decided to use the [Hotel booking demand data set](https://www.kaggle.com/jessemostipak/hotel-booking-demand) from Kaggle, to predict whenever a customer's booking will be cancelled or not. I thought this was a really good data set to practice and learn a lot about ML techniques and challenges , as this dataset contained tons of features and clean data to work with , furthermore , the proposed [Article](https://www.sciencedirect.com/science/article/pii/S2352340918315191) was really helpful to understand how this dataset worked.
+
+This data set contains a single file which compares various booking information between two hotels: a resort hotel(H1), and a city hotel(H2) , comprehending bookings due to arrive between July of 2015 and the 31st of August 2017, including bookings that effectively arrived and bookings that were canceled. [Article](https://www.sciencedirect.com/science/article/pii/S2352340918315191)
+
+
 
 ![alt](https://i2.wp.com/clark.com/wp-content/uploads/2018/07/hotelbooking.jpg?fit=875%2C400&ssl=1)
 
